@@ -6,9 +6,14 @@
   "scripts": {
     "test": "npm test"
   },
+  "engines": {
+    "node": "^14.15.4"
+  },
   "author": "Vladyslav Umerenko",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
     "sqlite3": "^5.0.2"
   }
 }
